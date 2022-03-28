@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container:hover .circle {
+            transform: translate(200px);
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .one {
+            background-color: lavender;
+            transition: transform 0.5s linear;
+            transition-delay: 0.5s;
+        }
+        .two {
+            background-color: thistle;
+            transition: transform 1s ease;
+            transition-delay: 1s;
+        }
+        .three {
+            background-color: plum;
+            transition: transform 1.5s ease-in;
+            transition-delay: 1.5s;
+        }
+        .four {
+            background-color: violet;
+            transition: transform 2s ease-out;
+            transition-delay: 2s;
+        }
+        .five {
+            background-color: orchid;
+            transition: transform 2.5s ease-in-out;
+            transition-delay: 2.5s;
+        }
+        .six {
+            background-color: fuchsia;
+            transition: transform 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-delay: 3s;
+        }
+        .seven {
+            background-color: lavender;
+            transition: transform 0.5s linear;
+            transition-delay: 0.5s;
+        }
+        .eight {
+            background-color: thistle;
+            transition: transform .5s ease;
+            transition-delay: .5s;
+        }
+        .nine {
+            background-color: plum;
+            transition: transform .5s ease-in;
+            transition-delay: .5s;
+        }
+        .ten {
+            background-color: violet;
+            transition: transform .5s ease-out;
+            transition-delay: .5s;
+        }
+        .eleven {
+            background-color: orchid;
+            transition: transform .5s ease-in-out;
+            transition-delay: .5s;
+        }
+        .twelve {
+            background-color: fuchsia;
+            transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-delay: .5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle one"></div>
+        <div class="circle two"></div>
+        <div class="circle three"></div>
+        <div class="circle four"></div>
+        <div class="circle five"></div>
+        <div class="circle six"></div>
+        <hr>
+        <div class="circle seven"></div>
+        <div class="circle eight"></div>
+        <div class="circle nine"></div>
+        <div class="circle ten"></div>
+        <div class="circle eleven"></div>
+        <div class="circle twelve"></div>
+    </div>
+</body>
+</html>
